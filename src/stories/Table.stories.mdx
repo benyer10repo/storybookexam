@@ -1,0 +1,20 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import { Table } from '../Table';
+
+<Meta title='Table' component={Table} />
+
+export const Template = (args) => <Table {...args} />
+
+<Canvas>
+    <Story name='Default' >
+        <Table 
+            headers={['col 1', 'col 2', 'col 3', 'col 4', 'col 5']}
+            rows={[
+                ['f1','f1','f1','f1','f1'],
+                ['f2','f2','f2','f2','f2'],
+                ['f3','f3','f3','f3','f3'],
+                ['f4','f4','f4','f4','f4'],
+            ]}
+        />
+    </Story>
+</Canvas>
