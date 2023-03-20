@@ -5,7 +5,8 @@
 </p>
 
 <h1 align="center">
-  Chromatic's Intro to Storybook React template
+  link del examen page
+  https://benyer10repo.github.io/storybookexam/?path=/story/example-introduction--page
 </h1>
 
 This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
